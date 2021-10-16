@@ -1,4 +1,4 @@
-git --version
+mgit --version
 
 git config --global user.name "Shubham"
 git config --global user.email "shubhamyc7@gmail.com"
@@ -19,3 +19,42 @@ git status
 git commit -m "initial Commit"
 
 git log
+
+git status
+
+git add newfile.txt
+
+git commit -m "add newfile.txt"
+
+git log
+
+git checkout 0265f437c24e69079f215bd66546a53b163a1a32
+
+git checkout master
+
+git branch
+
+git branch dev
+
+
+git checkout dev
+
+git checkout  -b anuj/multipy
+
+git status
+
+git add mul.txt\
+
+git commit -m "add mul.txt" 
+
+git checkout dev
+
+git merge anuj/multiply
+
+git remote -v
+
+git remote add origin https://github.com/shubhyc7/Test.git
+
+git branch -M main
+
+git push -u origin main
